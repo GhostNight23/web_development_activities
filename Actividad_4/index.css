@@ -1,0 +1,48 @@
+header
+{
+    background-color: black;
+    color: aliceblue;
+}
+header h1
+{
+    font-size: 50px;
+}
+nav{
+    background-color: azure;
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.hola
+{   width: 100%;
+    background-color: lightgrey;
+}
+main
+{
+    background-color: aqua;
+}
+ul
+{
+    list-style: none;
+}
+aside{
+    background-color: pink;
+}
+footer
+{
+    background-color: yellow;
+}
+body
+{
+    background-color: lightblue;
+}
+.hola{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
