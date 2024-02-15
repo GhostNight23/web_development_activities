@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+.cabecera
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulo{
+    width: 55%;
+    font-family: 'Comic Neue', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(101, 30, 2);
+    text-align: right;
+    margin-bottom: -50px;
+    margin-top: -50px;
+}
+
+#search1 {
+    border-radius: 15px 0px 0px 15px;
+    width: 100%;
+    max-width: 150px;
+    outline: none; /* Eliminar el contorno predeterminado */
+    border: 2px solid rgb(207, 162, 162); /* Agregar borde de color darkred */
+    background-color: white;
+    padding: 5px 15px;
+    margin-right: -2%;
+}
+.barra_iconos
+{
+    padding-top: 2%;
+    width: 25%;
+    transform: translate(25%, 0);
+}
+
+.images_header
+{
+    width: 20%;
+    padding-top: 2%;
+    transform: translate(25%, 0);
+}
+
+.barra_iconos button {
+    margin-left: 1.5%;
+    width: 25px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+#img-search {
+    width: 15px;
+}
+
+#extra1, #extra2, #extra3
+{
+    width: 20px;
+}
+
+nav
+{
+    text-align: center;
+    background-color: rgb(182, 154, 118 );
+    padding: 2px 0;
+}
+
+#nav_list
+{
+    list-style: none;
+}
+
+#nav_list li
+{
+    display: inline;
+    padding-right: 0.5em;
+    margin-left: 7%;
+    margin: 4%;
+}
+#nav_list li a
+{
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+}
+
+.principal {
+    background-image: url("images/portada.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+#t1
+{
+    padding-top: 90px;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+#t2
+{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+#t3
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-style: italic; 
+    margin-top: 50px;
+}
+
+.recomendations
+{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    font-family: Roboto;
+    
+}
+
+.recomendations .libros
+{
+    margin-top: 55px;
+    width: 25%;
+    margin-left: -2%;
+}
+
+.recomendations p
+{
+    color: darkred;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.info
+{
+    height: 39px;
+}
+
+.imagen_libro
+{
+    width: 90px;
+    margin: 0 auto;
+}
+
+#titulo
+{
+    color: darkred;
+}
+
+#despedida
+{
+    color: darkred;
+    text-align: center;
+}
+
+.aside_image
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.Conocenos
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    font-family: Roboto;
+}
+
+.Conocenos main
+{
+    margin-left: 2%;
+}
+
+
+.socialmedia
+{
+    list-style: none;
+}
+.socialmedia li
+{
+    display: inline;
+}
+
+.footer_1 
+{
+    background-color: rgb(180, 153, 118);
+    color: white;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+}
+
+.footer_1 .section1,
+.footer_1 .section2,
+.footer_1 .section3 {
+    flex-grow: 1;
+    width: 33.33%;
+    padding: 0 20px; 
+}
+
+.footer_0
+{
+    font-family: Roboto;
+    background-color: rgb(180, 153, 118);
+}
+
+.footer_1 hr
+{
+    color: white;
+}
+.icon
+{
+    width: 20px;
+}
+
+#footer_list
+{
+    list-style: none;
+}
+
+#footer_list li 
+{
+    display: block;
+}
+
+#footer_list li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.final
+{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.libros
+{
+    text-align: center;
+}
+
+.libros img
+{
+    display: flex;
+    margin: auto;    
+    width: 190px;
+    height: 290px;
+    margin-bottom: 15px;
+}
+
+.libros p
+{
+    color: black;
+    font-weight: bold;
+    font-family: Roboto;
+    text-align: center;
+    margin: -3px;
+    font-size: 15px;
+}
+
+.libros #author
+{
+    color: black;
+    font-weight: 300;
+    font-family: Roboto;
+    text-align: center;
+    margin: -3px;
+    font-size: 13px;
+}
+
+.libros #imagen_l
+{
+    text-align: center;
+}
+
+.seemore
+{
+    background-color: darkred;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    height: 30px;
+    margin: 10px;
+}
+
+.seemoreh
+{
+    text-decoration: none;
+    color: white;
+}
+
+#search2
+{
+    width: 80%;
+    border: none;
+    height: 25px;
+}
+
+#submitD
+{
+    margin: -3px;
+    background-color: rgb(214, 137, 93);
+    border: none;
+    color: white;
+    height: 27px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.libros_div
+{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    font-family: Roboto;
+}
+
+.libros_div .libros
+{
+    margin-top: 55px;
+    width: 20%;
+    margin-left: -2%;
+}
+
+.buy
+{
+    margin-top: 10px;
+}
+
+.buy .comprar
+{
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    height: 30px;
+    width: 60px;
+    font-size: 9px;
+}
+
+#precio
+{
+    color: darkgoldenrod;
+    font-family: Roboto;
+}
